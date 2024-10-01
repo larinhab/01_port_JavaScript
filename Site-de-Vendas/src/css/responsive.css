@@ -1,0 +1,81 @@
+/* small laptops a partir 1100px */
+
+@media (max-width: 1100px) {
+
+ .plans-container {
+    width: 95%;
+ }
+
+.plan {
+    margin: 0 5px;
+}
+}   
+
+/* tablets a partir 900px */
+
+@media (max-width: 900px) {
+
+    .navbar-items li {
+        margin-left: 50px;
+    }
+
+    .main-banner p {
+        padding: 0 6rem;
+    }
+
+    .searchdomain-container {
+        padding: 2rem 4rem;
+    }
+}
+
+/* celular a partir 576px */
+
+@media (max-width: 576px) {
+    html, 
+    body{
+        overflow-x: hidden;
+    }
+
+    .main-banner {
+        padding: 0 2rem;
+        width: 100%;
+    }
+    
+    .main-banner p{
+        font-size: 18px;
+    }
+
+    .navbar-items li {
+        font-size: 12px;
+        margin-left: 10px;
+    }
+
+    .services-container ul{
+        flex-direction:column;
+    }
+
+    .plans-container {
+        flex-direction: column;
+        width: 100%;
+        padding: 0 3rem;
+        
+    }
+
+    .plan {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .contact-container{
+        padding: 3rem 2rem;
+    }
+
+    .searchdomain-container h2 {
+        font-size: 16px;
+    }
+
+    .searchdomain-container p {
+        font-size: 12px;
+    }
+}

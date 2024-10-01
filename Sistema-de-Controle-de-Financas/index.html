@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Controle de Finanças</title>
+    <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="script" href="/src/js/script.js">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,300;10..48,400;10..48,700&display=swap" rel="stylesheet">
+    
+    
+
+</head>
+<body>
+    <header class="header"> <h2>
+        Controle de entrada e saída
+    </h2></header>
+ <main>
+    <div class="resume">
+        <div>
+        Entradas: R$
+        <span class="incomes"></span>
+    </div>
+
+    <div class="expenses">
+        Saídas: R$
+        <span class="expenses">0.00</span>
+    </div>
+
+    <div class="total">
+        Total: R$
+        <span class="total">0.00</span>
+    </div>
+
+    <div class="income">
+        Rendimentos: R$
+        <span class="income">0.00</span>
+    </div>
+    </div>
+
+    <div class="newItem">
+        <div class="divDesc">
+            <lavel for="desc">Descrição</lavel>
+            <input type="text" id="desc">
+        </div>
+    
+     <div class="divAmount">
+        <div class="amount">
+            <lavel for="desc">Valor</lavel>
+            <input type="number" id="amount">
+        </div>
+    </div>
+    <div class="divType">
+            <lavel for="type">Tipo</lavel>
+            <select id="type">
+                <option>Entrada</option>
+                <option>Saída</option>
+            </select>
+    </div>
+        <button id="btnNew">Incluir</button>
+    </div>
+
+    <div class="divTable">
+        <table>
+            <thead>
+                <tr>
+                    <th>Descrição</th>
+                    <th class="columnAmount">Valor</th>
+                    <th class="columType">Tipo</th>
+                    <th class="columnAction"></th>
+                </tr>
+            </thead>
+                <tbody></tbody>
+        
+    </div>
+    </table>
+
+    
+ </main>
+ <footer>
+    <p>
+        2023 &copy; - Criado com<i class="bx bx-heart"></i>por Lara B. Viana
+    </p>
+</footer>
+
+ <script src="/src/js/script.js"></script>
+
+</body>
+</html>
+

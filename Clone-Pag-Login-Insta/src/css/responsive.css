@@ -1,0 +1,50 @@
+@media (max-width:450px) {
+    body {
+    background-color: #fff;
+    overflow:hidden;
+    }
+    #banner-container {
+        display: none;
+    }
+
+    #main-container,
+    #form-box {
+        margin-top: 0;
+    }
+
+    #form-container,
+    #form-box,
+    #register-container,
+    #get-app-container {
+        width: 100%;
+        border: none;
+    }
+
+    footer {
+        width: 90%;
+    }
+
+    #footer-links {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 1100px) {
+    body {
+        width: 140%;
+        margin-top: 300px;
+        margin-bottom: 0;
+
+    }
+
+    #main-container {
+        width: 99%;
+    }
+
+    #footer-links {
+        font-size: 30px;
+    }
+
+}
